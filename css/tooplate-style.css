@@ -11,7 +11,7 @@ http://www.tooplate.com/view/2099-scenic
 
 body {
   background: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   overflow-x: hidden;
 }
 
@@ -29,8 +29,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 40px;
-  font-weight: 200;
+  font-size: 30px;
+  font-weight: 200px;
   line-height: 50px;
 }
 
@@ -88,7 +88,7 @@ p {
   font-weight: normal;
   letter-spacing: 0.5px;
   padding: 0 25px;
-  background: #4dc47d;
+  background: #2FB7FD;
   border-radius: 1px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -325,13 +325,13 @@ a:hover, a:active, a:focus {
   background: #ffffff;
   border-color: transparent;
 }
-/* SECCION DE LOS BOTONES DE NAVEGACION */
+/*LINEA DE BOTONES*/ 
 @media(min-width:768px) {
   .custom-navbar {
     background: 0 0; 
   }
   .custom-navbar.top-nav-collapse {
-    background: #4c6cd6;
+    background: #2FB7FD; 
     padding: 15px 0;
   }
 }
