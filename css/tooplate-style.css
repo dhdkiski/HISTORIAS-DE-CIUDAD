@@ -10,7 +10,7 @@ http://www.tooplate.com/view/2099-scenic
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
 body {
-  background: #ffffff00;
+  background: #ffffff;
   /* font-family: 'Poppins', sans-serif;   */
   font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
@@ -263,12 +263,12 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color: #52e3ff;
+  background-color: #4dc47d;
   padding: 20px 0;
 }
 .container_logo {
  width: 200px;
- display:outside;
+ display:flex;
  justify-content: center;
  align-items: center;
  height: 100%;
@@ -384,7 +384,7 @@ a:hover, a:active, a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(170, 47, 47, 0);
+  background-color: rgba(0,0,0,0.75);
 }
 
 #home video {
@@ -400,16 +400,7 @@ a:hover, a:active, a:focus {
   background-size: cover;
   transition: 1s opacity;
 }
-.video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
-  }
+
 
 /*---------------------------------------
   ABOUT              
@@ -550,8 +541,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: url('../images/contact-bg.jpg') 100% 0 repeat-y fixed;
-  background-size: auto;
+  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -578,6 +569,7 @@ a:hover, a:active, a:focus {
 #contact .form-control:focus {
   border-color: #d9d9d9;
 }
+
 
 #contact input {
   height: 55px;
